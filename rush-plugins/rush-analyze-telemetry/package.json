@@ -1,0 +1,23 @@
+{
+  "name": "rush-analyze-telemetry",
+  "version": "1.0.0",
+  "description": "A Rush Plugin to analyze Rush telemetry.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./lib/ && tsc"
+  },
+  "keywords": [
+      "rush",
+      "plugin",
+      "analyze",
+      "telemetry"
+  ],
+  "author": "Henry Han",
+  "dependencies": {
+    "os": "~0.1.2",
+    "path": "~0.12.7",
+    "@rushstack/node-core-library": "~3.51.1",
+    "@rushstack/rush-sdk": "~5.77.0"
+  }
+}
