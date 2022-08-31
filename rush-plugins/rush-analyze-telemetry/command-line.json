@@ -28,6 +28,7 @@
             "shortName": "-f",
             "argumentName": "FILE",
             "description": "Accepts a telemetry file that exists in the default telemetry file folder and runs the specified analysis function on the file.",
+            "associatedCommands": ["analyze-telemetry"],
             "required": true
         }
     ]

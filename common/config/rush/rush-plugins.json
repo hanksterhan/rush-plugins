@@ -21,5 +21,10 @@
     //    */
     //   "autoinstallerName": "plugins"
     // }
+    {
+      "packageName": "rush-analyze-telemetry",
+      "pluginName": "rush-analyze-telemetry",
+      "autoinstallerName": "rush-plugins"
+    }
   ]
 }
