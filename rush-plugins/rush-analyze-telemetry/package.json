@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A Rush Plugin to analyze Rush telemetry.",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "out/index.js",
   "scripts": {
-    "build": "node src/index.js"
+    "build": "node out/index.js"
   },
   "keywords": [
       "rush",
@@ -16,6 +16,7 @@
   "author": "Henry Han",
   "dependencies": {
     "@rushstack/rush-sdk": "~5.77.0",
-    "@rushstack/node-core-library": "~3.51.1"
+    "@rushstack/node-core-library": "~3.51.1",
+    "rush-analyze-telemetry": "~1.0.11"
   }
 }

@@ -400,6 +400,7 @@
           "packageName": "rush-analyze-telemetry",
           "projectFolder": "rush-plugins/rush-analyze-telemetry",
           "reviewCategory": "rush-plugins",
+          "cyclicDependencyProjects": ["rush-analyze-telemetry"],
           "shouldPublish": true
       }
   ]
